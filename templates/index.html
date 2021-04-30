@@ -1,0 +1,23 @@
+<!--#ID:ajf16n Due Date: 9/24/20
+#The program in this file is the
+#individual work of Alexander Franco-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+</style>
+    <meta charset="UTF-8">
+    <title>Website</title>
+</head>
+<body>
+<h1 class="ex2"><font size="+7">Welcome to the Restaurant Review Application</font></h1>
+<a href="{{ url_for('addReview') }}"><u><p>Write A Review</u></p></a>
+<a href="{{ url_for('getReviews') }}"><u><p>Get Reviews for a Restaurant</u></p></a>
+
+<a href="{{ url_for('showReport') }}"><u><p>Top 10 Restauraunt</u></p></a>
+</body>
+</html>

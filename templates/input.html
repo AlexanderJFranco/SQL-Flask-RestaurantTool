@@ -1,0 +1,26 @@
+<!--#ID:ajf16n Due Date: 9/24/20
+#The program in this file is the
+#individual work of Alexander Franco-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get Tweet Url</title>
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="spacer">
+    <h1 style="text-decoration: underline;" > Set Reminder Page</h1>
+        <p>Enter the date for your reminder(YYYY/MM/dd/hh/mm), followed by your desired message.</p>
+        <form action="{{ url_for('input') }}" method="post">
+        <input type="text" name="date_rem">
+            <input type="text" name="message">
+
+        <input type="submit">
+        </form>
+
+    </div>
+    {% endblock %}
+</body>
+</html>

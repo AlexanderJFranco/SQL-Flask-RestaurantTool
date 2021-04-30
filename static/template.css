@@ -1,0 +1,128 @@
+@media only screen and (max-width:475px){
+
+
+.navbar-nav{
+    flex-flow:column nowrap;
+  }
+
+}
+header img {
+    height: 80px;
+}
+body {
+    height:100%;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 0px;
+    background-repeat:repeat
+}
+
+main {
+    color:white ;
+}
+html {
+
+
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.center {
+ text-align: center
+}
+
+
+header {
+    z-index:3;
+    background-color: Black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    flex-flow:row nowrap;
+
+    display: inline-flex;
+    align-items: center;
+    box-shadow:0 0 25px 0 black;
+}
+
+li {
+    display: inline;
+}
+
+header li {
+
+margin:30px;
+width:100%
+}
+
+body,html{
+  height:150%;
+margin:0;
+  padding:0;
+  color:black;
+}
+
+
+
+
+
+body,html{margin:0;padding:0;}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+
+.container {
+
+  position: fixed;
+  text-align: center;
+  color: white;
+  width:100%;
+}
+
+
+
+
+
+/* Navbar container */
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: Black;
+  text-align: center;
+  padding: 3.7vh 2.5vh;
+  text-decoration: none;
+
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: DodgerBlue;
+}
+
+
+.spacer{
+  position: absolute;
+  top: 10%;
+
+
+}

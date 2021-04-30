@@ -1,0 +1,31 @@
+<!--#ID:ajf16n Due Date: 9/24/20
+#The program in this file is the
+#individual work of Alexander Franco-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+</style>
+    <meta charset="UTF-8">
+    <title>Website</title>
+</head>
+<body>
+<h1 class="ex2"><font size="+7">See Reviews for Restaurants</font></h1>
+
+
+<form method ='post'>
+    <div class="form-group">
+        <div action="{{ url_for('getReviews') }}" >
+             <label> Restaurant :</label>
+        <input type="text" name="restaurant">
+
+        </div>
+                <input type="submit", name = "btn">
+</form>
+
+
+    <a href="{{ url_for('home') }}"><u><p>Back to Home</u></p></a>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Flask</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="spacer">
+    <h1 style="text-align:center"> API's and Libraries Used</h1>
+      <p class="ex1"style="text-decoration: underline;"><font size="+2">Twilio</font></p>
+      <p class="ex1">Twilio allows for messaging via email and text messages to verified contacts, however, the premium
+      service allows messaging to any number/email.</p>
+
+       <p class="ex1"style="text-decoration: underline;"><font size="+2">Date-Time</font></p>
+      <p class="ex1">Allows for creating time objects to compare in real time to decide when to submit messages to
+      Twilio. </p>
+
+       <p class="ex1"style="text-decoration: underline;"><font size="+2">Flask</font></p>
+      <p class="ex1">Allos an HTML site formatted with CSS to utilize Python code locally as a back end</p>
+  </div>
+    {% endblock %}
+  </body>
+</html>

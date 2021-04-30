@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CIS 4930 Project</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    <div class="spacer">
+
+      <h1 class="ex2"><font size="+7">CIS 4930 Project</font></h1>
+      <p><br></p>
+      <p class="ex1"style="text-decoration: underline;"><font size="+2">What is the goal of this project?</font></p>
+      <p class="ex1">The goal of this project is to send scheduled reminders to its users utilizing Twilio's SMS API for Python</p>
+
+       <p class="ex1"style="text-decoration: underline;"><font size="+2">What algorithm does this project use?</font></p>
+      <p class="ex1">This application takes user input and creates a time object (in the form of YYYY/MM/DD/hh)<br> and compares it to
+      a current time object that is created at run time.</p>
+
+   <p class="ex1"style="text-decoration: underline;"><font size="+2">How can this project be improved?</font></p>
+      <p class="ex1">This project would be greatly improved if utilized with a premium Twilio accounnt, as
+      reminders could be relayed through any <br>platform. Additionally, the program would work
+      best in a system where it can be left constantly running on loop (not feasible on testing devices).</p>
+
+    </div>
+    {% endblock %}
+  </body>
+</html>

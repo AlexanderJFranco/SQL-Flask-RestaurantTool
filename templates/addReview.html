@@ -1,0 +1,68 @@
+<!--#ID:ajf16n Due Date: 9/24/20
+#The program in this file is the
+#individual work of Alexander Franco-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+</style>
+    <meta charset="UTF-8">
+    <title>Website</title>
+</head>
+<body>
+ <h1 style="text-decoration: underline;" > Write a Review</h1>
+<form method = 'post'>
+ <div class="form-group">
+        <div action="{{ url_for('addReview') }}" >
+             <label>Username :</label>
+        <input type="varchar(40)" name="username">
+        </div>
+
+
+      <div class="form-group">
+        <div action="{{ url_for('addReview') }}">
+             <label>Restaurant :</label>
+        <input type="varchar(50)" name="restaurant">
+        </div>
+
+
+
+           <div class="form-group">
+        <div action="{{ url_for('addReview') }}" >
+             <label>Food :</label>
+        <input type="float" name="food">
+        </div>
+
+                <div class="form-group">
+        <div action="{{ url_for('addReview') }}">
+             <label>Service :</label>
+        <input type="float" name="service">
+        </div>
+
+        <div action="{{ url_for('addReview') }}" >
+             <label>Ambience :</label>
+        <input type="float" name="ambience">
+
+
+        <div action="{{ url_for('addReview') }}" >
+             <label>Price :</label>
+        <input type="float" name="price">
+
+        <div action="{{ url_for('addReview') }}" >
+             <label>Overall :</label>
+        <input type="float" name="overall">
+        </div>
+             <label>Review:</label>
+
+        <div action="{{ url_for('addReview') }}" >
+        <input style="height:40px;font-size:14pt;" type="varchar(500)" name="review">
+        </div>
+<input type="submit" name = "sub" >
+</form>
+ </div>
+
+<a href="{{ url_for('home') }}"><u><p>Back to Home</u></p></a>
+
+</body>
+</html>
